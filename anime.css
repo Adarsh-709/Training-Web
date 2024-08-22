@@ -1,0 +1,96 @@
+body {
+    background-color: #0b0d33;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+.anime-details-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #1a1c4a;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.anime-image-section {
+    flex: 1;
+    text-align: center;
+}
+
+.anime-image-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.anime-info-section {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.anime-info-section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.anime-info-section h2 {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.anime-info-section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.anime-info-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.anime-info-grid div {
+    width: 48%;
+}
+
+.anime-info-grid p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.anime-info-grid strong {
+    color: #ffa500;
+}
+
+.anime-actions {
+    margin-top: 20px;
+}
+
+.anime-actions .follow-btn,
+.anime-actions .watch-now-btn {
+    background-color: #ff4c4c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.anime-actions .follow-btn:hover,
+.anime-actions .watch-now-btn:hover {
+    background-color: #ff1c1c;
+}
+
+.anime-actions .watch-now-btn {
+    background-color: #ff8c1c;
+}
+
+.anime-actions .watch-now-btn:hover {
+    background-color: #ff681c;
+}
